@@ -1,0 +1,110 @@
+body {
+    background-color: #141414;
+    font-family: sans-serif;
+    color: #ffffff;
+  }
+  
+  h1, h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .btn {
+    background-color: #e50914;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #b2070f;
+  }
+  
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 16px;
+  }
+  
+  .movie-card {
+    background-color: #202020;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .movie-poster {
+    height: 330px;
+    object-fit: cover;
+    width: 220px;
+  }
+  
+  .movie-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 16px;
+  }
+  
+  .movie-description {
+    font-size: 16px;
+    margin: 16px;
+  }
+  .add-movie {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-movie h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .add-movie label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .add-movie input[type="text"],
+  .add-movie textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-movie button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-movie button:hover {
+    background-color: #b80009;
+  }
+  
